@@ -1,0 +1,72 @@
+body {
+  background: #FFDAD1 url(../imágenes/vintage.jpg) no-repeat;
+}
+.gif {
+  margin: 10px auto;
+  display: block;
+}
+
+.img {display: none;
+  margin: 10px auto;
+}
+
+.menu ul, .menu li {
+  margin: 0;
+  padding: 0;
+}
+.menu ul {
+  background: gray;
+  list-style: none;
+  width: 100%;
+}
+.menu li {
+  float: left;
+  position: relative;
+  width:auto;
+}
+.menu a {
+  background: #590353;
+  color: #FFFFFF;
+  font: bold 12px/20px sans-serif;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+.menu li:hover a {
+  background: #c68bf0;
+}
+
+.div {
+  display: flex; justify-content: center; align-items: center;
+}
+
+.contenedor {
+  margin-left: auto;
+  margin-right: auto;
+}
+.letra {font-family: 'Sofadi One', cursive;
+}
+
+@media (max-width: 575px) {
+  .gif {display: none;}
+}
+@media (max-width: 575px) {
+  .img {display: block;}
+}
+@media (max-width: 576px/767px) {
+
+}
+@media (max-width: 768px/991px) {
+
+}
+@media (max-width: 992px/1199px) {
+
+}
+@media (max-width: 1200px) {
+
+}
