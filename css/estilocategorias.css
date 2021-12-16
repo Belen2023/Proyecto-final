@@ -5,11 +5,13 @@ body {
   margin: 10px auto;
   display: block;
 }
-
 .img {display: none;
   margin: 10px auto;
 }
-
+section {
+float: left;
+}
+}
 .menu ul, .menu li {
   margin: 0;
   padding: 0;
@@ -45,13 +47,6 @@ body {
   display: flex; justify-content: center; align-items: center;
 }
 
-.contenedor {
-  margin-left: auto;
-  margin-right: auto;
-}
-.letra {font-family: 'Sofadi One', cursive;
-}
-
 @media (max-width: 575px) {
   .gif {display: none;}
 }
@@ -69,4 +64,8 @@ body {
 }
 @media (max-width: 1200px) {
 
+}
+
+card1 {
+  display: left;
 }
